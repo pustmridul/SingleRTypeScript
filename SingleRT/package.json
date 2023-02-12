@@ -1,0 +1,23 @@
+{
+  "name": "singlert",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=development --watch",
+    "release": "webpack --mode=production",
+    "publish": "npm run release && dotnet publish -c Release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pustmridul/SingleRTypeScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pustmridul/SingleRTypeScript/issues"
+  },
+  "homepage": "https://github.com/pustmridul/SingleRTypeScript#readme"
+}
